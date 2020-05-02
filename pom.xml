@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>fei.group</groupId>
-  <artifactId>fei.test</artifactId>
+  <artifactId>fei-test</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>war</packaging>
 
