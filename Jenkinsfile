@@ -10,6 +10,7 @@ pipeline{
                                   if(out == 0){
                                     sh "rm -rf feitest"
                                   }
+                        }
                sh "git clone https://github.com/Aero-bro/feitest.git"
            }
         }
