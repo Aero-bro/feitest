@@ -1,0 +1,48 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (malloc) failed to allocate 32784 bytes for Chunk::new
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   In 32 bit mode, the process size limit was hit
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Use 64 bit Java on a 64 bit OS
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (allocation.cpp:390), pid=10184, tid=0x000000000000275c
+#
+# JRE version: Java(TM) SE Runtime Environment (8.0_131-b11) (build 1.8.0_131-b11)
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (25.131-b11 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0000000018de7800):  JavaThread "C2 CompilerThread0" daemon [_thread_in_native, id=10076, stack(0x000000001aa60000,0x000000001ab60000)]
+
+Stack: [0x000000001aa60000,0x000000001ab60000]
+[error occurred during error reporting (printing stack bounds), id 0xc0000005]
+
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+
+
+Current CompileTask:
+C2: 912036 26312   !   4       java.util.jar.Attributes::read (414 bytes)
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+  0x0000000030e2f000 JavaThread "qtp358737454-134" [_thread_new, id=3256, stack(0x0000000000000000,0x0000000000000000)]
+  0x0000000030e2e000 JavaThread "qtp358737454-133" [_thread_in_Java, id=6212, stack(0x00000000506f0000,0x00000000507f0000)]
+  0x0000000030e27800 JavaThread "qtp358737454-132" [_thread_blocked, id=1168, stack(0x00000000505f0000,0x00000000506f0000)]
+  0x0000000030e2d800 JavaThread "qtp358737454-128" [_thread_in_vm, id=5352, stack(0x000000004fef0000,0x000000004fff0000)]
+  0x0000000030e2c800 JavaThread "qtp358737454-127" [_thread_in_native, id=9352, stack(0x000000004fdf0000,0x000000004fef0000)]
+  0x0000000030e2b000 JavaThread "qtp358737454-126" [_thread_blocked, id=3068, stack(0x000000004fcf0000,0x000000004fdf0000)]
+  0x0000000030e2a800
