@@ -1,0 +1,6 @@
+version: '2'
+services:
+  backend:
+    image: registry.cn-hangzhou.aliyuncs.com/aero_bro/fei:backend
+    ports:
+      - 8083:8080
