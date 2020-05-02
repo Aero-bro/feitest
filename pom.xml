@@ -211,7 +211,7 @@
               <filtering>true</filtering>
           </resource>
       </resources>
-    <finalName>fei.test</finalName>
+    <finalName>fei-test</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <!-- mybatis generator 自动生成代码插件 -->
