@@ -1,5 +1,5 @@
 #基础镜像
-FROM tomcatjdk8
+FROM registry.cn-hangzhou.aliyuncs.com/aero_bro/tomcatjdk8
 
 #作者
 LABEL maintainer="zhoufei<1498747727@qq.com>"
