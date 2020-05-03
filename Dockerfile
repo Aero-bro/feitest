@@ -9,8 +9,8 @@ LABEL maintainer="zhoufei<1498747727@qq.com>"
 ENV CATALINA_BASE:   /usr/local/tomcat \
     CATALINA_HOME:   /usr/local/tomcat \
     CATALINA_TMPDIR: /usr/local/tomcat/temp \
-    JAVA_HOME /jdk \
-    PATH $JAVA_HOME/bin:$PATH
+    JAVA_HOME: /jdk \
+    PATH: $JAVA_HOME/bin:$PATH
 
 #启动入口
 ENTRYPOINT ["catalina.sh","run"]
