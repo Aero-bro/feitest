@@ -4,13 +4,14 @@ FROM tomcat:7.0.86
 #作者
 LABEL maintainer="zhoufei<1498747727@qq.com>"
 
-
+ADD ../jdk1.8.0_251 /jdk
 
 #TOMCAT环境变量
 ENV CATALINA_BASE:   /usr/local/tomcat \
     CATALINA_HOME:   /usr/local/tomcat \
     CATALINA_TMPDIR: /usr/local/tomcat/temp \
-    JRE_HOME:        /usr
+    ENV JAVA_HOME /jdk \
+    ENV PATH $JAVA_HOME/bin:$PATH
 
 #启动入口
 ENTRYPOINT ["catalina.sh","run"]
