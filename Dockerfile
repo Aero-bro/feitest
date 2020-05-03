@@ -4,7 +4,6 @@ FROM tomcat:7.0.86
 #作者
 LABEL maintainer="zhoufei<1498747727@qq.com>"
 
-ADD ../jdk1.8.0_251 /jdk
 
 #TOMCAT环境变量
 ENV CATALINA_BASE:   /usr/local/tomcat \
