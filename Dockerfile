@@ -1,5 +1,5 @@
 #基础镜像
-FROM tomcat:7.0.86
+FROM tomcat
 
 #作者
 LABEL maintainer="zhoufei<1498747727@qq.com>"
