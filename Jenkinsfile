@@ -26,8 +26,8 @@ pipeline{
                sh "docker build -t backend ."
                sh "docker login --username=慈航普渡aero --password=Zf666888? registry.cn-hangzhou.aliyuncs.com"
                sh "docker tag backend registry.cn-hangzhou.aliyuncs.com/aero_bro/fei:backend"
-
-               sh "docker-compose up -d"
+               sh "docker push registry.cn-hangzhou.aliyuncs.com/aero_bro/fei:backend"
+               sh "docker pull registry.cn-hangzhou.aliyuncs.com/aero_bro/fei:backend && docker-compose up -d"
             }
         }
     }
