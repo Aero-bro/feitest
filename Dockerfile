@@ -1,5 +1,5 @@
 #基础镜像
-FROM aero_bro/tomcatjdk8
+FROM tomcatjdk8
 
 #作者
 LABEL maintainer="zhoufei<1498747727@qq.com>"
