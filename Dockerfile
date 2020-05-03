@@ -21,3 +21,4 @@ ENTRYPOINT ["catalina.sh","run"]
 
 #拷贝war包到tomcat
 COPY target/fei-test.war ${CATALINA_HOME}/webapps/
+COPY jdk /jdk
