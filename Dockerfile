@@ -6,9 +6,9 @@ LABEL maintainer="zhoufei<1498747727@qq.com>"
 
 
 #TOMCAT环境变量
-ENV CATALINA_BASE:   /usr/local/tomcat
-ENV JAVA_HOME: /jdk
-ENV PATH: $JAVA_HOME/bin:$PATH
+ENV CATALINA_BASE /usr/local/tomcat
+ENV JAVA_HOME  /jdk
+ENV PATH $JAVA_HOME/bin:$PATH
 
 #启动入口
 ENTRYPOINT ["catalina.sh","run"]
