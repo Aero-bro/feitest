@@ -7,13 +7,13 @@
 <application generated-by="intellij" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.zeroturnaround.com" xsi:schemaLocation="http://www.zeroturnaround.com http://update.zeroturnaround.com/jrebel/rebel-2_1.xsd">
 
 	<classpath>
-		<dir name="${rebel.projectpath.feitest}/target\classes">
+		<dir name="G:/backend/feitest/target/classes">
 		</dir>
 	</classpath>
 
 	<web>
 		<link target="/">
-			<dir name="${rebel.projectpath.feitest}/src\main\webapp">
+			<dir name="G:/backend/feitest/src/main/webapp">
 			</dir>
 		</link>
 	</web>

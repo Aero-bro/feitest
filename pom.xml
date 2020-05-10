@@ -274,7 +274,7 @@
             <port>8888</port>
             <host>localhost</host>
           </httpConnector>
-          <scanIntervalSeconds>1</scanIntervalSeconds>
+          <scanIntervalSeconds>0</scanIntervalSeconds>
         </configuration>
       </plugin>
     </plugins>

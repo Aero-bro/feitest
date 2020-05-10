@@ -24,10 +24,13 @@
             <entry key="com.zeroturnaround.jrebel.remoting.ModuleSpecificSingleRemoteServer" />
             <entry key="jrebelEnabled" value="true" />
             <entry key="lastExternalPluginCheckTime" value="1588401687333" />
+            <entry key="rebelXmlExternalGenerationNoAutoconvert" value="true" />
+            <entry key="rebelXmlGenerationType" value="ide" />
             <entry key="savedRebelXmlBuildTool" />
             <entry key="savedRebelXmlContent" />
           </map>
         </option>
+        <option name="useRelativePathsInXml" value="true" />
       </configuration>
     </facet>
   </component>
